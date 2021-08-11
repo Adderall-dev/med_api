@@ -3,5 +3,6 @@ defmodule MedApiWeb.Schema.Types do
 
   alias MedApiWeb.Schema.Types
 
-  import_types(Types.Usertype)
+  import_types(Types.UserType)
+  import_types(Types.SessionType)
 end

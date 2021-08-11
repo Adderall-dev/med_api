@@ -23,6 +23,10 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
 
+# guardian cofig
+config :med_api, MedApi.Guardian,
+  issuer: "med_api",
+  secret_key: "uuSEHhPHxwq7cpFOVzDOLn5mCvvkm4P4jSd9vbrwIuYF8/45RM351VpA6Vj76URe"
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 

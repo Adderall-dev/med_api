@@ -47,6 +47,7 @@ defmodule MedApi.MixProject do
       {:argon2_elixir, "~> 1.3"},
       {:absinthe, "~> 1.5.0"},
       {:absinthe_plug, "~> 1.5"},
+      {:guardian, "~> 1.0"}
     ]
   end
 

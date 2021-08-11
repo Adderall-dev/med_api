@@ -1,4 +1,4 @@
-defmodule MedApiWeb.Schema.Types.Usertype do
+defmodule MedApiWeb.Schema.Types.UserType do
   use Absinthe.Schema.Notation
 
   # for query
